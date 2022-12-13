@@ -1,0 +1,7 @@
+# Windows - Create a file '.bash_profile' in C:\\Users\\username
+# add reference to .aliases with 'source D:\\Tools\\bash_aliases\\.aliases'
+ 
+alias ls='ls -F --color=auto --show-control-chars'
+alias ll='ls -l'
+alias clb='git branch --merged | egrep -v "\* develop" | xargs git branch -d'
+alias dev='cd D:'
