@@ -3,10 +3,17 @@
  
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
-alias clb='git branch --merged | egrep -v "\* develop" | xargs git branch -d'
+
 alias dev='cd D:'
-alias gp='git pull'
+alias clb='git branch --merged | egrep -v "\* develop" | xargs git branch -d'
+
+alias gpull='git pull'
+alias gpush='git push'
+alias gadd='git add .'
+alias gcom='git commit -am'
+
 alias fo='git fetch origin'
 alias md='git merge origin/develop'
 alias cb='git switch -c'
-alias gb='git switch -'
+alias back='git switch -'
+alias sw='git switch'
